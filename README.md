@@ -31,6 +31,10 @@ Created by [rubenwardy](https://rubenwardy.com/)
 Code: LGPLv2.1+
 Textures: CC-BY-SA 3.0
 
+### Textures
+
+* ctf_classes_skin_* found and edited by GreenDimond/GreenXenith
+
 ### Mods
 
 * [afkkick](https://forum.minetest.net/viewtopic.php?t=10919) by GunshipPenguin (CC0 1.0)
