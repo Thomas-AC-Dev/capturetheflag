@@ -29,14 +29,8 @@ local function update(name)
 end
 
 function physics.set(pname, name, modifiers)
-	assert(players[pname] and not players[pname][name])
+	assert(players[pname])
 	players[pname][name] = modifiers
-	update(pname)
-end
-
-function physics.change(pname, name, modifier)
-	assert(players[pname] and players[pname][name])
-	players[pname][name] = modifier
 	update(pname)
 end
 
